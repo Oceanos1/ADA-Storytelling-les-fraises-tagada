@@ -13,4 +13,4 @@ exclude:
   - README.md
   - LICENSE.txt
   - CNAME
-theme: jekyll-theme-merlot
+theme: jekyll-theme-cayman
