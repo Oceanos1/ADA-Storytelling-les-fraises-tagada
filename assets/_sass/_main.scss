@@ -2,6 +2,16 @@ main {
   hr { margin: 80px 0; }
   section { overflow: hidden; }
 
+  .square {
+    @extend .img-responsive;
+
+
+    background-size: cover;
+
+    &.pull-left {  margin-right: 40px;  }
+    &.pull-right {  margin-left: 40px;  }
+  }
+  
   img {
     @extend .img-circle;
     @extend .img-responsive;
@@ -9,6 +19,9 @@ main {
     &.pull-left {  margin-right: 40px;  }
     &.pull-right {  margin-left: 40px;  }
   }
+
+
+
 
   h2 {
     font-size: 50px;
