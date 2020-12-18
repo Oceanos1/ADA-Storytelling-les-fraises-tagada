@@ -8,16 +8,14 @@ image: "https://picsum.photos/id/5/500/500"
 We decided first to work on the USA country before working on all other smaller datasets.
 
 
-We notice that our distribution plot is very similar to the one we obtained with the datasets from Gowalla and Brightkite. This result intuitively makes sense, since we  work on the same country. The only different parameter is the year of study (and it shouldn't impact much our results, people don't move a lot overall).
-
-
 ![](img/distancebtwfiendsshousefoursquareUS.JPG){: .align-left;height="55%"; width="55%"}
-Something about the first picture.
+We notice that our distribution plot is very similar to the one we obtained with the datasets from Gowalla and Brightkite. This result intuitively makes sense, since we  work on the same country. The only different parameter is the year of study (and it shouldn't impact much our results, people don't move a lot overall).
 {:style="clear: left"}
 
 
-![image](img/friendcheckinusa.png){: style="float: left"; margin-right: 10em; height="55%"; width="55%"}
+ Then we now look at results using datasets from different countries
 
+ ![image](img/distancebtwfiendsshousefoursquareAll.JPG){: style="float: left"; margin-right: 10em; height="55%"; width="55%"}
 
  <table>
   <tr>
@@ -26,14 +24,9 @@ Something about the first picture.
      <td>Present day in </td>
   </tr>
   <tr>
-    <td><img src="img/friendcheckinusa.png" width=270 height=480></td>
-    <td><img src="img/friendcheckinusa.png" width=270 height=480></td>
-    <td><img src="img/friendcheckinusa.png" width=270 height=480></td>
+    <td><img src="img/distancebtwfiendsshousefoursquareUS.JPG" width=270 height=480></td>
+    <td><img src="img/distancebtwfiendsshousefoursquareUS.JPG" width=270 height=480></td>
+    <td><img src="img/distancebtwfiendsshousefoursquareUS.JPG" width=270 height=480></td>
     
   </tr>
  </table>
-
- Then we now look at results using datasets from different countries
-
- ![image](img/friendcheckinusa.png){: style="float: left"; margin-right: 10em; height="55%"; width="55%"}
-
