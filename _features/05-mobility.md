@@ -1,6 +1,6 @@
 ---
 id: Mobility
-name: Of knowledge and power
+name: Knowledge is power
 heading: Predicting movements
 subheading: 
 ---
