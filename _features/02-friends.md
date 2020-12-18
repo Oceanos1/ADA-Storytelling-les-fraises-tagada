@@ -11,7 +11,7 @@ We decided first to work on the USA country before working on all other smaller 
 We notice that our distribution plot is very similar to the one we obtained with the datasets from Gowalla and Brightkite. This result intuitively makes sense, since we  work on the same country. The only different parameter is the year of study (and it shouldn't impact much our results, people don't move a lot overall).
 
 
-![](img/friendcheckinusa.png){: .align-left;height="55%"; width="55%"}
+![](img/distancebtwfiendsshousefoursquareUS.JPG){: .align-left;height="55%"; width="55%"}
 Something about the first picture.
 {:style="clear: left"}
 
