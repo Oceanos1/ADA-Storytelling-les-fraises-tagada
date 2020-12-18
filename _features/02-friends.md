@@ -10,7 +10,8 @@ You have just set foot on new land. Let's make friends with natives !
 We decided first to work on the USA country before working on all other smaller datasets.
 
 <br>
-
+<br>
+<br>
 <p>
 <center><img src="img/distancebtwfiendsshousefoursquareUS.JPG" alt="drawing" width="750"/><center/>
 <p/> <br>
