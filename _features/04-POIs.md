@@ -10,6 +10,8 @@ Now that we have an idea of how sociable natives are, we need to identify how th
 
 In the table below, you will find the top thirty of the most visited POIs in the US dataset. It can be helpful to know which seats are popular and which are not, especially if your goal is to make friends.
 
+<br> 
+
 | POIs              | Number of checkins | POIs | Number of checkins |
 |:--------          |:-------:|--------:|:--------:|
 | Home (private)    | 36'438 | Mall   | 9'426   |
@@ -45,12 +47,12 @@ In the table below, you will find the top thirty of the most visited POIs in the
 |=====
 {: rules="groups"}
 
----
+<br> <br> 
 
 Let's now remove POIs that can't really be visited by a traveler or that don't really make sense in the context of meeting new people. Here's the top twenty POIs:
 
 
- ![image](img/NbOfCheckinsPerPoisUS.JPG){: style="float: left"; height="55%"; width="55%"}
+ ![image](img/NbOfCheckinsPerPoisUS.png){: style="float: left"; height="55%"; width="55%"}
 
 You have the answer, these are the most famous types of places in USA when you only look at the number of check-ins. On the other hand, you will find POIs that don't have a lot of checkins like Paella, Moroccan, Swiss, Portugueuse and Turkish restaurants. This data can always be useful to you, for example if you plan to open a restaurant in America because you would prefer to avoid this kind of restaurants because of their poor success.
 You'll also find other interesting results like roof decks with only 29 checkins, conventions with 4 and Internet Cafe with 91 checkins, probably because they are not as much popular in USA as they used to be. For example, most people in America have computers at home, while in South Korea it is still common to go to an Internet café to work or play.
@@ -79,10 +81,10 @@ Now let's take the dataset of Japan to look at the same information as before. I
 
  This beginning of POIs analysis is done on the dataset of a two different country and although it can be very useful for someone going to America or Japan, it can be interesting to ask which POI are the most frequented independently of the country.
 
- In order to achieve this goal, the same procedure was applied to the top 10 countries with the most checkins.
+ In order to achieve this goal, the same procedure was applied to the top 10 countries with the most checkins. Remember that this is the filtered results where we removed the checkins that were irrelevant like the home of a user.
 
  So we have in order from left to right countries with the most checkins:
-
+<br> 
 
  |       USA | Indonesia | Brazil           | Turkey | Russia | Japan        | Malaysia | Mexico | Thailand | Philippines |
 |:-------- |:-------:|--------:|:--------:|:-------- |:-------:|--------:|:--------:|:-------- |:-------:|
@@ -99,5 +101,5 @@ Now let's take the dataset of Japan to look at the same information as before. I
 |=====
 {: rules="groups"}
 
-
+<br> <br> 
 The first thing you can notice is the type of restaurant that is in each country. A Mexican restaurant will be more popular than in Mexico, while a Japanese restaurant will be more popular in Japan. This can be due to the number of people who go there or because it is a popular cuisine in the country.
