@@ -79,6 +79,7 @@ This means that contrary to the US, Japan have more "super users" !
         <th>Phillipines</th>
       </tr>
       <tr>
+        <th scope="row">Mean</th>
         <th> 7.95</th>
         <th>8.04</th>
         <th>8.38</th>
@@ -90,6 +91,7 @@ This means that contrary to the US, Japan have more "super users" !
         <th> 11.11</th>
       </tr>
       <tr>
+      <th scope="row">Median</th>
         <th>3.00</th>
         <th>3.00</th>
         <th>4.00</th>
