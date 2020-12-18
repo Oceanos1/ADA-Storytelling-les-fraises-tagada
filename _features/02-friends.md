@@ -58,7 +58,7 @@ There is also a difference of 3 friends between the median and the mean in the n
 
 This means that contrary to the US, Japan have more "super users" !
 
- Also the number of "super user" and number of friend increase in time ! This can be explained by a greater use of Foursquare in Japan. The  Indeed the more the network is known the more friends you have on it. fq created in the US. vien d'arriverau jp
+ Also the number of "super user" and number of friend increase in time ! This can be explained by a greater use of Foursquare in Japan. The network is created in the US and perhaphs in the Japan, in this year, more people have created their account. Indeed the more the network is known the more friends you have on it. 
 
 
 <p>
