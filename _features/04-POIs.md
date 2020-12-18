@@ -47,30 +47,10 @@ In the table below, you will find the top thirty of the most visited POIs in the
 
 ---
 
-Let's now remove POIs that can't really be visited by a traveler or that don't really make sense in the context of meeting new people. Here's the top 10 POIs:
+Let's now remove POIs that can't really be visited by a traveler or that don't really make sense in the context of meeting new people. Here's the top twenty POIs:
 
-| POIs    | Number of checkins | 
-|:--------|:-------:|
-| Coffee Shop   | 20’811   | 
-|----
-| Grocery Store |  15’759  |
-|----
-| American Restaurant 	   | 14’837   | 
-|----
-| Bar   | 14’528  | 
-|----
-| Gas Station / Garage	   | 14’478   | 
-|----
-| Gym   | 11’308  | 
-|----
-| Department Store |  10’248  |
-|----
-| Mall 	   | 9’426   | 
-|----
-| Fast Food Restaurant   | 8’887  | 
-|----
-| Mexican Restaurant  | 7’727   | 
 
+ ![image](img/NbOfCheckinsPerPoisUS.JPG){: style="float: left"; height="55%"; width="55%"}
 
 You have the answer, these are the most famous types of places in USA when you only look at the number of check-ins. On the other hand, you will find POIs that don't have a lot of checkins like Paella, Moroccan, Swiss, Portugueuse and Turkish restaurants. This data can always be useful to you, for example if you plan to open a restaurant in America because you would prefer to avoid this kind of restaurants because of their poor success.
 You'll also find other interesting results like roof decks with only 29 checkins, conventions with 4 and Internet Cafe with 91 checkins, probably because they are not as much popular in USA as they used to be. For example, most people in America have computers at home, while in South Korea it is still common to go to an Internet café to work or play.
@@ -80,6 +60,19 @@ You'll also find other interesting results like roof decks with only 29 checkins
 Something else that is also interesting to observe is the combination of activities. We have paired the visited places together and you can see in the figure below the result.
 
  ![image](img/nbofcheckinsforplacesvisitedtogetherUS.png){: style="float: center"; margin-right: 10em; height="55%"; width="55%"}
+
+When we look at the places visited together, we notice that there are a lot of them that are of the form (Place, Home (private)) This comes from the fact that, as we have seen before, Home (private) is the most popular chackin place for our population. We notice that among our popular combinations, we have some that can be explained both intuitively and culturally. For example, the combination (Coffee Shop, Office) has already been mentionned earlier. While the combination, (Airport, Hotel) can be explained intuitively as "when we come from the airport, we have to find a hotel to stay". However, the fact that it is the fifth most popular combination can only be explained as "In the US, since the country is so large, it is much more common to travel by plane".
+
+
+Now let's take the dataset of Japan to look at the same information as before. If we paired the most visited places together, we get the following figure.
+
+ ![image](img/nbofcheckinsforplacesvisitedtogetherJapan.png){: style="float: center"; margin-right: 10em; height="55%"; width="55%"}
+
+  It becomes difficult to infer meaningful information from the combinations of checkins since if we look top 20 POIs of Japan, Train Station is top 1. What we can guess is that Japanese people use the public transport a lot, both for work and leisure purposes.
+  Unfortunately, even if it is a very busy place, it is not very conducive to meeting people, especially if they are all on their phones.
+
+   ![image](img/NbOfCheckinsPerPoisJapan.JPG){: style="float: center"; margin-right: 10em; height="55%"; width="55%"}
+
 
 ---
 
