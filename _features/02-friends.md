@@ -19,14 +19,14 @@ We notice that our distribution plot is very similar to the one we obtained with
 
 
 <br>
- Then we now look at results using datasets from different countries
+<h1> Then we now look at results using datasets from different countries<h1/>
 
 
  <p>
 <center><img src="img/distancebtwfiendsshousefoursquareAll.JPG" alt="drawing" width="750"/><center/>
 <p/>
 <br>
-
+<h1> <h1/>
 
 <p>
 <center><img src="img/US_flag.jpg" alt="drawing" width="150"/><center/>
