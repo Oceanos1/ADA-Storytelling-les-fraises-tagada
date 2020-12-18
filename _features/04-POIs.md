@@ -66,7 +66,7 @@ When we look at the places visited together, we notice that there are a lot of t
 
 Now let's take the dataset of Japan to look at the same information as before. If we paired the most visited places together, we get the following figure.
 
- ![image](img/nbofcheckinsforplacesvisitedtogetherJapan.png){: style="float: center"; margin-right: 10em; height="55%"; width="55%"}
+ ![image](img/nbofcheckinsforplacesvisitedtogetherJapan.JPG){: style="float: center"; margin-right: 10em; height="55%"; width="55%"}
 
   It becomes difficult to infer meaningful information from the combinations of checkins since if we look top 20 POIs of Japan, Train Station is top 1. What we can guess is that Japanese people use the public transport a lot, both for work and leisure purposes.
   Unfortunately, even if it is a very busy place, it is not very conducive to meeting people, especially if they are all on their phones.
