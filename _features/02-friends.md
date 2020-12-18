@@ -37,23 +37,28 @@ We notice that our distribution plot is very similar to the one we obtained with
 <center><img src="img/US_flag.jpg" alt="drawing" width="150"/><center/>
 <p/>
  
- If you go to the US, natives have on average 6.26 friends, our 90% confidence interval is [4.918, 7.82]
+ If you go to the US, natives have on average 6.26 friends in the new dataset (2013), our 90% confidence interval is [4.918, 7.82]
  
 
  <p>
 <center><img src="img/nbOfFriendOfNativesUS.JPG" alt="drawing" width="750"/><center/>
 <p/>
 
+There is also a difference of 2 friends between the median and the mean in the new dataset (2013).
  In the US, most users don't have many friends on Foursquare. There are a few "super users" which have a lot of friends !   
+ 
 We notice that the number seems to have grown over time, but not by a lot.
 
 <p>
-<center><img src="img/JP_flag.jpg" alt="drawing" width="150"/><center/>
+<center><img src="img/JP_flag.png" alt="drawing" width="150"/><center/>
 <p/>
-On average, in Japan, natives have more friend than the US : 6.95 friends, our 90% confidence interval is [5.11, 8.72]
+On average, in Japan, natives have more friend than the US : 6.95 friends in 2013, our 90% confidence interval is [5.11, 8.72]
 
-But contrary to the Us JP have more "super users" ! Also the number of "super user" and number of friend increase in time ! 
+There is also a difference of 3 friends between the median and the mean in the new dataset (2013).
 
+This means that contrary to the US, Japan have more "super users" !
+
+ Also the number of "super user" and number of friend increase in time ! This can be explained by a greater use of Foursquare in Japan. Indeed the more the network is known the more friends you have on it.
 
 
 <p>
