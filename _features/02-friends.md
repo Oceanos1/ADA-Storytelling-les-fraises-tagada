@@ -64,6 +64,7 @@ This means that contrary to the US, Japan have more "super users" !
 <center>
   <head>
     <title>Average and median of number of natives friends in the new dataset (2013)</title>
+    <b>Average and median of number of natives friends in the new dataset (2013)</b>
   </head>
   <body>
     <table border="1">
