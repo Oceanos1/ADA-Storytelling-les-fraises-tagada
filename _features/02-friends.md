@@ -68,6 +68,7 @@ This means that contrary to the US, Japan have more "super users" !
   <body>
     <table border="1">
       <tr>
+        <th scope="row">Countries</th>
         <th>US</th>
         <th>Japan</th>
         <th>Brazil</th>
