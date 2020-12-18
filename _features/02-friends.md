@@ -32,3 +32,18 @@ We notice that our distribution plot is very similar to the one we obtained with
     
   </tr>
  </table>
+
+ ![image](img/US_flag.jpg){: style="float: center"; margin-right: 10em; height="55%"; width="55%"}
+ 
+ If you go to the US, natives have on average 6.26 friends, our 90% confidence interval is[ 4.918, 7.82]
+ 
+ ![image](img/nbOfFriendOfNativesUS.JPG){: style="float: center"; margin-right: 10em; height="55%"; width="55%"}
+
+ In the US, most users don't have many friends on Foursquare. There are a few "super users" which have a lot of friends !   
+We notice that the number seems to have grown over time, but not by a lot.
+
+![image](img/JP_flag.jpg){: style="float: center"; margin-right: 10em; height="55%"; width="55%"}
+On average, in Japan, natives have more friend than the US : 6.95 friends, our 90% confidence interval is[ 5.11, 8.72]
+
+But contrary to the Us they have less "super users" !
+![image](img/nbOfFriendOfNativesJP.png){: style="float: center"; margin-right: 10em; height="55%"; width="55%"}
