@@ -1,6 +1,6 @@
 ---
 id: Mobility
-name: Of knowledge and power
+name: Knowledge is power
 heading: Predicting movements
 subheading: 
 ---
@@ -19,7 +19,7 @@ Everyone knows that the best way to make friends with somebody is to <s> stalk t
   <body>
     <table border="1">
       <tr>
-        <th> US </th>
+        <th>US</th>
         <th>Japan</th>
         <th>Brazil</th>
         <th>India</th>
@@ -82,6 +82,9 @@ When we studied our cities, we were intrigued by the case of Brazil. Indeed : If
   </center>
 </table>
 
+Where we are embarassed is that we would need better knowledge of each country individually in order to do more meaningful commentaries and interpretations. What we can only conclude is that the first checkin of the day takes in mostly in places associated to work or shopping, while people should check-in at their houses later on in the day.<br>
+
 <p style="color:black;font-size:25px;"><b>Other Checkins</b></p>
 
-Let's imagine now that you have missed your friend. You know where he checked in and you want to know where he is going to check-in next (so that you can surprise him). We have the solution for you !
+Let's imagine now that you have missed your friend. You know where he checked in and you want to know where he is going to check-in next (so that you can surprise him). We have the solution for you ! Based on the first Checkin of the day, we have put in place a predictor that can guess where our friend will go next ! For example, if your American friend checked-in at his house, there is a 54 % chance that he does not check-in again in the day, a 4% chance that checks-in again at the office and a 42% chance that he checks elsewhere (your best case would then be to go at his house). As a demo, we used our algorithm to check some intuitions. For example, for someone who goes in an airport we expect him : 1) to check-in multiple times because the wait time is long in an airport 2) to then check-in in a hotel or to a place near the airport. Our data indicate us that there is a 14% chance that the user checks-in again from the airport and that if he checks-in elsewhere, our user is more likely to check-in at (in this order) a hotel (8% chance), the airport terminal (6%) or the airport gate (5%). If a user checks-in at a hotel, his next destination are most likely to be (in that order) an Airport, an American restaurant or a Coffee Shop, while it is unlikely that he checks-in at a home.<br>
+Our algorithm being quite slow, we didn't manage to get much more information from it.
