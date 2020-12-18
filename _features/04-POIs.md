@@ -79,7 +79,7 @@ You'll also find other interesting results like roof decks with only 29 checkins
 
 Something else that is also interesting to observe is the combination of activities. We have paired the visited places together and you can see in the figure below the result.
 
- ![image](img/nbofcheckinsforplacesvisitedtogetherUS.JPG){: style="float: center"; margin-right: 10em; height="55%"; width="55%"}
+ ![image](img/nbofcheckinsforplacesvisitedtogetherUS.png){: style="float: center"; margin-right: 10em; height="55%"; width="55%"}
 
 ---
 
