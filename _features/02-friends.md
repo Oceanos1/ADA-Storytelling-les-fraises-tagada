@@ -2,7 +2,7 @@
 id: friends
 name: Friends and Natives
 heading: How do natives behave with friends ? 
-image: "https://picsum.photos/id/5/500/500"  
+image: "https://picsum.photos/id/395/500/500"  
 ---
 
 You have just set foot on new land. Let's make friends with natives !
@@ -58,7 +58,7 @@ There is also a difference of 3 friends between the median and the mean in the n
 
 This means that contrary to the US, Japan have more "super users" !
 
- Also the number of "super user" and number of friend increase in time ! This can be explained by a greater use of Foursquare in Japan. Indeed the more the network is known the more friends you have on it.
+ Also the number of "super user" and number of friend increase in time ! This can be explained by a greater use of Foursquare in Japan. The  Indeed the more the network is known the more friends you have on it. fq created in the US. vien d'arriverau jp
 
 
 <p>
