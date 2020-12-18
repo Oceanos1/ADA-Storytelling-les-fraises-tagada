@@ -14,42 +14,42 @@ In the table below, you will find the top thirty of the most visited POIs in the
 
 | POIs              | Number of checkins | POIs | Number of checkins |
 |:--------          |:-------:|--------:|:--------:|
-| Home (private)    | 36'438 | Mall   | 9'426   |
+| Home (private)    | 57'199 | Residential Building (Apartment / Condo) | 16191   |
 |----
-| Airport           | 21'801 | Fast Food Restaurant 	   |8'887   |
+| Office            | 46'155 | Fast Food Restaurant 	   |14766   |
 |----
-| Coffee Shop 	     | 20'811 | General Travel   | 8'565   |
+| Coffee Shop 	     | 41905 | Mall   | 14572   |
 |----
-| Office            | 20'787 | Mexican Restaurant 	   |7'727   |
+| Airport            | 39503 | Road 	   |12690 	   |
 |----
-| Grocery Store	  | 15'759 | Train Station 	   |6'786   |
+| Gym	              | 33533 	 | Church	   |12532  |
 |----
-|American Restaurant| 14'837 | Park   |6'651   |
+|American Restaurant| 31631 | Pizza Place   |12442   |
 |----
-|     Bar	        | 14'528 | Neighborhood   |6'650   |
+|     Bar	        | 28661 | Burger Joint   |12078   |
 |----
-|Gas Station / Garage| 14'478| Theme Park  |6'351   |
+|Grocery Store| 27498 | Park  |11782   |
 |----
-|Other Great Outdoors| 13'201| Pizza Place   |6'076   |
+|Building| 20612 | General Travel  |10658  |
 |----
-| Hotel             | 12'247 | Burger Joint 	   |5'759   |
+| Hotel  | 20564 | Sandwich Place    |10499   |
 |----
-| Building 	        | 11'960 | Gym / Fitness Center |5'748   |
+| Gas Station / Garage 	| 20206 | Italian Restaurant 	 |9326   |
 |----
-| Gym               | 11'308 | Church   |5'502   |
+| Other Great Outdoors    | 17650 | Train Station   |9325   |
 |----
-|Road               | 11'219 | Miscellaneous Shop | 5'326   |
+|Mexican Restaurant   |17331 | Neighborhood | 8906   |
 |----
-|Residential Building| 10'521| Sandwich Place  |5'247   |
+|Gym / Fitness Center 	| 16570| Theme Park  |8455   |
 |----
-| Department Store  | 10'248 | Bank   |5'172   |
+| Department Store  | 16465 | Miscellaneous Shop  |8379   |
 |----
 |=====
 {: rules="groups"}
 
 <br> <br> 
 
-Let's now remove POIs that can't really be visited by a traveler or that don't really make sense in the context of meeting new people. Here's the top twenty POIs:
+Here's the top twenty POIs with a graph:
 
 
  ![image](img/NbOfCheckinsPerPoisUS.png){: style="float: left"; height="55%"; width="55%"}
