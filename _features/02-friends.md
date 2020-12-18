@@ -1,6 +1,6 @@
 ---
 id: friends
-name: Of Friends and Natives
+name: Friends and Natives
 heading: How do natives behave with friends ? 
 image: "https://picsum.photos/id/5/500/500"  
 ---

@@ -1,6 +1,6 @@
 ---
 id: analyse
-name: Aanalyse
+name: Analyse
 heading: The Second Heading
 subheading: Is Pretty Cool Too.
 image: "https://picsum.photos/id/2/500/500"

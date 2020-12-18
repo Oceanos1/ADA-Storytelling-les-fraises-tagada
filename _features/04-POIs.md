@@ -74,7 +74,9 @@ Now let's remove the POIs that can't be really visited by a traveller or that do
 Here you are, those place are the most famous according to the number of checkins ! As opposite, we find that some of the place that have the less checkins are Paella, Moroccan, Swiss, Portugueuse and Turkish restaurants. It can always be useful data if you plan to open a restaurant in USA since you might want to avoid those restaurant type.
 You'll also find some other interesting low results like Roof Deck with only 29 checkins, convention with 4 and Internet Cafe with 91 checkins.
 
+--- 
+
 We might also want to analyse why they go out and to do so, we pair places visited together and you can see in the following figure our results.
 
 
- ![image](img/nbofcheckinsforplacesvisitedtogetherUS.JPG){: style="float: center"; margin-right: 10em; height="55%"; width="55%"}
+ ![image](img/nbofcheckinsforplacesvisitedtogetherUS.png){: style="float: center"; margin-right: 10em; height="55%"; width="55%"}

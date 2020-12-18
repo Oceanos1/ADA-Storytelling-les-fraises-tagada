@@ -1,7 +1,7 @@
 ---
 id: context
-name: Of Travels and Adventures
-heading: Context of this datastory
+name: Travels and Adventures
+heading: Travels and Adventures 
 subheading: 
 image: "https://picsum.photos/id/1/500/500"  
 ---
