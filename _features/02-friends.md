@@ -32,7 +32,7 @@ We notice that our distribution plot is very similar to the one we obtained with
 <center><img src="img/US_flag.jpg" alt="drawing" width="150"/><center/>
 <p/>
  
- If you go to the US, natives have on average 6.26 friends in the new dataset (2013), our 90% confidence interval is [4.918, 7.82]
+ <h3>If you go to the US, natives have on average 6.26 friends in the new dataset (2013), our 90% confidence interval is [4.918, 7.82]<h3/>
  <br>
 
  <p>
