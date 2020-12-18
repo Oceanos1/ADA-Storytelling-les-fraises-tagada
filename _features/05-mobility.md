@@ -17,7 +17,7 @@ Everyone knows that the best way to make friends with somebody is to <s> stalk t
     <b>Percents of times a user checked-in only once in the day</b>
   </head>
   <body>
-    <table border="1">
+    <table border="collapse" style="width:100%">
       <tr>
         <th>US</th>
         <th>Japan</th>

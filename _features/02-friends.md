@@ -40,7 +40,7 @@ When we plot our results for all our countries, we notice that the countries wit
     <b>Distance between users : 0.8 th quantile</b>
   </head>
   <body>
-    <table border="1">
+    <table border="collapse" style="width:100%">
       <tr>
         <th scope="row">Countries</th>
         <th>US</th>
