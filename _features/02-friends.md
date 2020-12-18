@@ -2,7 +2,7 @@
 id: friends
 name: Friends and Natives
 heading: How do natives behave with friends ? 
-image: "https://picsum.photos/id/395/500/500"  
+image: "https://picsum.photos/id/395/300"  
 ---
 
 You have just set foot on new land. Let's make friends with natives !
