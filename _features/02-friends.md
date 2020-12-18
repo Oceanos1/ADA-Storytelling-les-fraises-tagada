@@ -64,10 +64,12 @@ This means that contrary to the US, Japan have more "super users" !
 <center>
   <head>
     <title>Average and median of number of natives friends in the new dataset (2013)</title>
+    <b>Average and median of number of natives friends in the new dataset (2013)</b>
   </head>
   <body>
     <table border="1">
       <tr>
+        <th scope="row">Countries</th>
         <th>US</th>
         <th>Japan</th>
         <th>Brazil</th>
@@ -79,6 +81,7 @@ This means that contrary to the US, Japan have more "super users" !
         <th>Phillipines</th>
       </tr>
       <tr>
+        <th scope="row">Mean</th>
         <th> 7.95</th>
         <th>8.04</th>
         <th>8.38</th>
@@ -90,6 +93,7 @@ This means that contrary to the US, Japan have more "super users" !
         <th> 11.11</th>
       </tr>
       <tr>
+      <th scope="row">Median</th>
         <th>3.00</th>
         <th>3.00</th>
         <th>4.00</th>
