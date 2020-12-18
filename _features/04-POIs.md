@@ -8,7 +8,7 @@ image: "img/coffee.jpg"
 
 Now that we have an idea of how sociable natives are, we need to identify how they behave and in particular the places of interests they go to. We'll call them POIs. In order to do so, we must identify the places they go to, at what frequency, and what combinations of places they go on the same day.
 
-In the table below, you will find the top thirty of the most visited POIs in the US dataset. It can be helpful to know which seats are popular and which are not, especially if your goal is to make friends.
+We first have a look at the USA. In the table below, you will find the top thirty of the most visited POIs in the US dataset. It can be helpful to know which seats are popular and which are not, especially if your goal is to make friends. We put the number of Check-ins so as to compare the values and to see how much more popular are the top values in comparaison with the other values.
 
 <br> 
 
@@ -49,59 +49,61 @@ In the table below, you will find the top thirty of the most visited POIs in the
 
 <br> <br> 
 
-Here's the top twenty POIs with a visualization:
+We now plot the values:
 
 
  ![image](img/NbOfCheckinsPerPoisUS.png){: style="float: left"; height="55%"; width="55%"}
 
-You have the answer, these are the most famous types of places in USA when you only look at the number of check-ins. On the other hand, you will find POIs that don't have a lot of checkins like Paella, Moroccan, Swiss, Portugueuse and Turkish restaurants. This data can always be useful to you, for example if you plan to open a restaurant in America because you would prefer to avoid this kind of restaurants because of their poor success.
-You'll also find other interesting results like roof decks with only 29 checkins, conventions with 4 and Internet Cafe with 91 checkins, probably because they are not as much popular in USA as they used to be. For example, most people in America have computers at home, while in South Korea it is still common to go to an Internet Café to work or play.
+You have the answer, these are the most famous types of places in USA when you only look at the number of check-ins. On the one hand, a lot of people check-in while at home or on the workplace. This results seems logical because they are the two places where people spend the most time. On the other hand, you will find POIs that don't have a lot of checkins like Paella, Moroccan, Swiss, Portugueuse and Turkish restaurants. If you plan to open a restaurant in America, you would prefer to avoid this kind of restaurants because of their have poor success. If you want to bring in customers, still with the local cuisine.
+Some other interesting results are roof decks with 29 checkins (going on roofs is not a very good way to socialize), conventions with 4 and Internet Cafe with 91 checkins. The later shows that these places are not as much popular in USA as they used to be. Indeed, most people in America have computers at home, while in South Korea it is still common to go to an Internet Café to work or play.
 
 ---
 
-Something else that is also interesting to observe is the combination of activities. We have paired the visited places together and you can see in the figure below the result.
+Something else that is also interesting to observe is the combination of activities. What is the average day of an American citizen in terms of destinations ? We have paired the visited places together and you can see in the figure below the result.
 
  ![image](img/nbofcheckinsforplacesvisitedtogetherUS.png){: style="float: center"; margin-right: 10em; height="55%"; width="55%"}
 
-When we look at the places visited together, we notice that there are a lot of them that are of the form (Place, Home (private)) This comes from the fact that, as we have seen before, Home (private) is the most popular chackin place for our population. We notice that among our popular combinations, we have some that can be explained both intuitively and culturally. For example, the combination (Coffee Shop, Office) has already been mentionned earlier. While the combination, (Airport, Hotel) can be explained intuitively as "when we come from the airport, we have to find a hotel to stay". However, the fact that it is the fifth most popular combination can only be explained as "In the US, since the country is so large, it is much more common to travel by plane".
+When we look at the places visited together, we notice that there are a lot of them that are of the form (Place, Home (private)) This comes from the fact that, as we have seen before, Home (private) is the most popular chackin place for our population. We notice that among our popular combinations, we have some that can be explained both intuitively and culturally. For example, the combination (Coffee Shop, Office) comes from the fact that "coffee breaks" at the coffee shop are very popular in America and also because taking breakfast at a Coffee shop is also popular. The combination, (Airport, Hotel) can be explained intuitively as "when we come from the airport, we have to find a hotel to stay". However, the fact that it is the fifth most popular combination can only be explained as "In the US, since the country is so large, it is much more common to travel by plane".
 
 
-Now let's take the dataset of Japan to look at the same information as before. If we paired the most visited places together, we get the following figure.
-
- ![image](img/nbofcheckinsforplacesvisitedtogetherJapan.JPG){: style="float: center"; margin-right: 10em; height="55%"; width="55%"}
-
-  It becomes difficult to infer meaningful information from the combinations of checkins since if we look top 20 POIs of Japan, Train Station is top 1. What we can guess is that Japanese people use the public transport a lot, both for work and leisure purposes.
-  Unfortunately, even if it is a very busy place, it is not very conducive to meeting people, especially if they are all on their phones.
+Now let's take the dataset of Japan to look at the same information as before. We start with the popular destinations :
 
    ![image](img/NbOfCheckinsPerPoisJapan.JPG){: style="float: center"; margin-right: 10em; height="55%"; width="55%"}
+   
+If we look top 20 POIs of Japan, Train Station is top 1. What we can guess is that Japanese people use the public transport a lot, both for work and leisure purposes. The japanese Shinkansen is renowned in the whole world and this could explain its success. Moreover, car ownership is not especially common in Japan. For the other POIs, we notice that local food is privileged with noodle houses and Japanese Restaurants in the top 5 of most popular POIs. We are also glad to see that Arcades survived somewhere at least. The fact of having arcades is a cultural thing.
+Unfortunately Train Stations are a very busy place, it is not very proctical for meeting people, especially if they are all on their phones. So much for making friends.
+
+If we pair the places visited on the same day, we get the following figure.
+
+ ![image](img/nbofcheckinsforplacesvisitedtogetherJapan.JPG){: style="float: center"; margin-right: 10em; height="55%"; width="55%"}
+It becomes difficult to infer meaningful information from the combinations of checkins since "Train Station" is extremely prevalent.
 
 
 ---
 
+Now that we have had a detailed view for Japan and the US, let us have a look of the most popular POIs for our other countries.
 
- This beginning of POIs analysis is done on the dataset of a two different country and although it can be very useful for someone going to America or Japan, it can be interesting to ask which POI are the most frequented independently of the country.
+ In order to achieve this goal, the same procedure was applied to the other countries announced previously. Since we want to make friends, we do a filtered results where we remove private places where you can't come in and socialize. For example, we removed "Home (private)".
 
- In order to achieve this goal, the same procedure was applied to the top 10 countries with the most checkins. Remember that this is the filtered results where we removed the checkins that were irrelevant like the home of a user.
-
- So we have in order from left to right countries with the most checkins:
+ So we have (from left to right countries with the most checkins):
 <br> 
 
- |       USA | Indonesia | Brazil           | Turkey | Russia | Japan        | Malaysia | Mexico | Thailand | Philippines |
-|:-------- |:-------:|--------:|:--------:|:-------- |:-------:|--------:|:--------:|:-------- |:-------:|
-| Office  | Mall |Office      |  Café  |Office   | Train Station | Mall | Office | Mall | Mall |
+ |       USA | Indonesia | Brazil           | Turkey | Japan        | Malaysia | Mexico | Thailand | Philippines |
+|:-------- |:-------:|--------:|:--------:|:-------- |--------:|:--------:|:-------- |:-------:|
+| Office  | Mall |Office      |  Café   | Train Station | Mall | Office | Mall | Mall |
 |----
-|Coffee shop|Indonesian Restaurant|   Mall | Mall  |Mall   | Subway         | Malaysian Restaurant | Mall | Thai Restaurant | Office |
+|Coffee shop|Indonesian Restaurant|   Mall | Mall    | Subway         | Malaysian Restaurant | Mall | Thai Restaurant | Office |
 |----
-| Airport |Church | Neighborhood |   Restaurant  | Coffee shop | Convenience Store | Asian Restaurant | Mexican Restaurant | Train Station | Coffee shop |
+| Airport |Church | Neighborhood |   Restaurant   | Convenience Store | Asian Restaurant | Mexican Restaurant | Train Station | Coffee shop |
 |---- 
-| Gym | Asian Restaurant | Gym  |   Café  | Train Station | Ramen/Noodle House |  Indian Restaurant | Gym | Coffee shop | Fast food restaurant |
+| Gym | Asian Restaurant | Gym  |   Café   | Ramen/Noodle House |  Indian Restaurant | Gym | Coffee shop | Fast food restaurant |
 |----
-| American Restaurant | Airport | Brazilian Restaurant  | Beach   | Restaurant | Japanese Restaurant | Café | Coffee shop | Japanese Restaurant | Church |
+| American Restaurant | Airport | Brazilian Restaurant  | Beach   | Japanese Restaurant | Café | Coffee shop | Japanese Restaurant | Church |
 |----
 |=====
 {: rules="groups"}
 
 <br> <br> 
-The first thing you can notice is the type of restaurant that is in each country. A Mexican restaurant will be more popular than in Mexico, while a Japanese restaurant will be more popular in Japan. This can be due to the number of people who go there or because it is a popular cuisine in the country.
+The first thing you can notice is the type of restaurant that is in each country. A Mexican restaurant will be more popular in Mexico, while a Japanese restaurant will be more popular in Japan. "In Rome, eat as Romans eat".
 
-Then, we notice that some POIs come back in several countries, which would indicate that no matter the culture, they remain important and can be good places by default to meet people, as for example the Mall which comes back in the top 5 of 8 of the 10 countries with the most check-ins.
+Then, we notice that some POIs come back in several countries. This is logical : no matter the country, people have to go to the office or buy products at the mall. Therefore, if you didn't have the time to study the country beforehand, you can still go to these places to socialize. For example the Mall comes back in the top POIs of 7 of the 9 countries we studied.
