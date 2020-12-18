@@ -16,11 +16,11 @@ In the table below, you will find the top thirty of the most visited POIs in the
 |----
 | Airport           | 21'801 | Fast Food Restaurant 	   |8'887   |
 |----
-| Coffee Shop 	    | 20'811 | General Travel   | 8'565   |
+| Coffee Shop 	     | 20'811 | General Travel   | 8'565   |
 |----
 | Office            | 20'787 | Mexican Restaurant 	   |7'727   |
 |----
-| Grocery Store	    | 15'759 | Train Station 	   |6'786   |
+| Grocery Store	  | 15'759 | Train Station 	   |6'786   |
 |----
 |American Restaurant| 14'837 | Park   |6'651   |
 |----
@@ -76,4 +76,28 @@ Now let's take the dataset of Japan to look at the same information as before. I
 
 ---
 
- This beginning of POI analysis is done on the dataset of a single country and although it can be very useful for someone going to America, it can be interesting to ask which POI are the most frequented independently of the country.
+
+ This beginning of POIs analysis is done on the dataset of a two different country and although it can be very useful for someone going to America or Japan, it can be interesting to ask which POI are the most frequented independently of the country.
+
+ In order to achieve this goal, the same procedure was applied to the top 10 countries with the most checkins.
+
+ So we have in order from left to right countries with the most checkins:
+
+
+ |       USA | Indonesia | Brazil           | Turkey | Russia | Japan        | Malaysia | Mexico | Thailand | Philippines |
+|:-------- |:-------:|--------:|:--------:|:-------- |:-------:|--------:|:--------:|:-------- |:-------:|
+| Office  | Mall |Office      |  Café  |Office   | Train Station | Mall | Office | Mall | Mall |
+|----
+|Coffee shop|Indonesian Restaurant|   Mall | Mall  |Mall   | Subway         | Malaysian Restaurant | Mall | Thai Restaurant | Office |
+|----
+| Airport |Church | Neighborhood |   Restaurant  | Coffee shop | Convenience Store | Asian Restaurant | Mexican Restaurant | Train Station | Coffee shop |
+|---- 
+| Gym | Asian Restaurant | Gym  |   Café  | Train Station | Ramen/Noodle House |  Indian Restaurant | Gym | Coffee shop | Fast food restaurant |
+|----
+| American Restaurant | Airport | Brazilian Restaurant  | Beach   | Restaurant | Japanese Restaurant | Café | Mall | Japanese Restaurant | Church |
+|----
+|=====
+{: rules="groups"}
+
+
+The first thing you can notice is the type of restaurant that is in each country. A Mexican restaurant will be more popular than in Mexico, while a Japanese restaurant will be more popular in Japan. This can be due to the number of people who go there or because it is a popular cuisine in the country.
