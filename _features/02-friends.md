@@ -62,5 +62,5 @@ This means that contrary to the US, Japan have more "super users" !
 
 
 <p>
-<center><img src="img/nbOfFriendOfNativesJP.png" alt="drawing" width="750"/><center/>
+<center><img src="img/nbOfFriendOfNativesJP.jpg" alt="drawing" width="750"/><center/>
 <p/>
