@@ -109,7 +109,7 @@ We now present the numbers for other countries.
     <b>Average and median of number of natives friends in the new dataset (2013)</b>
   </head>
   <body>
-    <table border="1">
+    <table border="collapse" style="width:100%">
       <tr>
         <th scope="row">Countries</th>
         <th>US</th>
