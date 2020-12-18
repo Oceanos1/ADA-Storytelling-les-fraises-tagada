@@ -16,7 +16,7 @@ We decided first to work on the USA country before working on all other smaller 
 <center><img src="img/distancebtwfiendsshousefoursquareUS.JPG" alt="drawing" width="750"/><center/>
 <p/> <br>
 We notice that our distribution plot is very similar to the one we obtained with the datasets from Gowalla and Brightkite. This result intuitively makes sense, since we  work on the same country. The only different parameter is the year of study (and it shouldn't impact much our results, people don't move a lot overall).
-{:style="clear: left"}
+
 
 <br>
  Then we now look at results using datasets from different countries
