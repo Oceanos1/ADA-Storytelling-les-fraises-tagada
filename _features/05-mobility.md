@@ -19,7 +19,7 @@ Everyone knows that the best way to make friends with somebody is to <s> stalk t
   <body>
     <table border="1">
       <tr>
-        <th> US </th>
+        <th>US</th>
         <th>Japan</th>
         <th>Brazil</th>
         <th>India</th>
@@ -84,4 +84,4 @@ When we studied our cities, we were intrigued by the case of Brazil. Indeed : If
 
 <p style="color:black;font-size:25px;"><b>Other Checkins</b></p>
 
-Let's imagine now that you have missed your friend. You know where he checked in and you want to know where he is going to check-in next (so that you can surprise him). We have the solution for you !
+Let's imagine now that you have missed your friend. You know where he checked in and you want to know where he is going to check-in next (so that you can surprise him). We have the solution for you ! Based on the first Checkin of the day, we have put in place a predictor that can guess where our friend will go next ! For example, 
