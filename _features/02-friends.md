@@ -52,7 +52,8 @@ We notice that the number seems to have grown over time, but not by a lot.
 <p/>
 On average, in Japan, natives have more friend than the US : 6.95 friends, our 90% confidence interval is [5.11, 8.72]
 
-But contrary to the Us JP have more "super users" ! Also the number of "super user increase in time ! 
+But contrary to the Us JP have more "super users" ! Also the number of "super user" and number of friend increase in time ! 
+
 
 
 <p>
