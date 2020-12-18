@@ -1,9 +1,11 @@
 ---
 id: friends
-name: friends
-heading: Distance between friend's house 
+name: Of Friends and Natives
+heading: How do natives behave with friends ? 
 image: "https://picsum.photos/id/5/500/500"  
 ---
+
+You have just set foot on new land. Let's make friends with natives !
 
 We decided first to work on the USA country before working on all other smaller datasets.
 
@@ -15,7 +17,7 @@ We notice that our distribution plot is very similar to the one we obtained with
 
  Then we now look at results using datasets from different countries
 
- ![image](img/distancebtwfiendsshousefoursquareAll.JPG){: style="float: left"; margin-right: 10em; height="55%"; width="55%"}
+ ![image](img/distancebtwfiendsshousefoursquareAll.JPG){: style="float: center"; margin-right: 10em; height="55%"; width="55%"}
 
  <table>
   <tr>

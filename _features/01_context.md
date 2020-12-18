@@ -1,30 +1,21 @@
 ---
 id: context
-name: Context
+name: Of Travels and Adventures
 heading: Context of this datastory
 subheading: 
 image: "https://picsum.photos/id/1/500/500"  
 ---
 
+Do you yourself the soul of a traveler but loneliness scares you ? Are you scared of standing out like a sore thumb ? Where can you find friends ? Where should you meet with your newly found friends ? How do natives behave ?<br>
 
-In the paper, "Friendship and mobility : User movement in Location-Based Social Networks", the authors answered one important question : what influence do friends have on movements ?
-But what if you don't have friends in the first place and just want to blend in ? Imagine : You just arrived in a new country. You don't know how to behave with the locals and what to expect. How friendly are people ? How often is it socially acceptable to meet ? Where should you meet ? Where and when should you go on holidays ?
-In this storytelling, we will attempt to answer some of these questions for multiple countries.
+We want to find concrete answers to these practical questions in order to avoid any akward situation. In this data story, we will study 10 countries.<br>
 
+In our work, we base our conclusions from the datasets “Global-scale Check-in Dataset with User Social Networks” from [two research projects](https://sites.google.com/site/yangdingqi/home/foursquare-dataset#h.p_7rmPjnwFGIx9) (project 5 by Dingqi Yang). The dataset is coming from *Foursquare* and it contains the information of **22,809,624 checkins** by **114,324 users**, **607,333 friendship links** and **3,820,891 POIs**. It contains a set of worldwide check-ins with country flags. All the checkins were taken over about two years. We also have two snapshots of the corresponding friendship links between users of the social network before (in Mar. 2012) and after (in May 2014) the check-in data collection period.<br>
+Since there are too much data for one single data story, we decide to focus on 10 countries : the USA (1187597 checkins in 2013), Japan (1147469 checkins), Brazil (1003438), India (771871), Malaysia (606248), Turkey (601302), Mexico (477855), Thailand (339861) and the Phillipines (244149). We chose these countries because they have the most checkins.<br>
 
+Our first step was to extract these subdatasets and to put them in the adequate format. For more details on this, we invite you to check our github [How to behave in uncharted territories](https://github.com/epfl-ada/ada-2020-project-milestone-p3-p3_les-fraises-tagada/blob/master/How%20to%20behave%20in%20foreign%20territoy%20%3F.ipynb).<br>
 
-
-
-We found our datasets “Global-scale Check-in Dataset with User Social Networks” from [two research projects](https://sites.google.com/site/yangdingqi/home/foursquare-dataset#h.p_7rmPjnwFGIx9) (project 5 by Dingqi Yang). The dataset is coming from *Foursquare* and it contains the information of **22,809,624 checkins** by **114,324 users**, **607,333 friendship links** and **3,820,891 POIs**. It contains a set of worldwide check-ins with country flags taken over about two years and two snapshots of the corresponding user social network before (in Mar. 2012) and after (in May 2014) the check-in data collection period.
-In order to work with this dataset, we broke it down in smaller datasets, based on countries and kept only the 10 top country with the most check-ins. In order to learn more on how we broke our dataset down, please consult the scripts ["createSubDataset.ipynb"](https://github.com/epfl-ada/ada-2020-project-milestone-p3-p3_les-fraises-tagada/blob/master/createSubDataset.ipynb) and ["preprocess.ipynb"](https://github.com/epfl-ada/ada-2020-project-milestone-p3-p3_les-fraises-tagada/blob/master/preprocess.ipynb).
-
+Now it is time to go on a wonderful journey through the world of data in order to seek for answers !
 
 ![gras](img/test.jpg){: class="rounded"}
-
-
-A first interesting fact is that we have more data in 2012 than any other year. This is surprising since we don't even have the data for a full year !
-We have less data in 2013 though we have the full year data. This can be explained by the fact that foursquare's popularity was starting to waver and would only grow again towards 2014 with the release of "swarm", a companion app to foursquare.
-In order to have a coherent dataset, we will start by working on data from 2013 (where we have the full year) and check our results by using data from 2012 and 2014.
-
-
 

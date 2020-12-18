@@ -8,6 +8,7 @@ sass:
 collections:
   - features
 exclude:
+  - vendor
   - Gemfile
   - Gemfile.lock
   - README.md
