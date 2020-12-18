@@ -1,12 +1,7 @@
-# One Page Wonder Jekyll
+# ADA P4 Storytelling
 
-[Jekyll](https://github.com/jekyll/jekyll) port of [One Page Wonder](https://github.com/IronSummitMedia/startbootstrap-one-page-wonder).
+## Setup
 
-## Contributing
+`bundle install`
 
-1. Fork it ( https://github.com/mushishi78/one-page-wonder-jekyll/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
-
+`bundle exec jekyll serve`
