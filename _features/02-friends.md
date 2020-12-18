@@ -59,3 +59,48 @@ This means that contrary to the US, Japan have more "super users" !
 <p>
 <center><img src="img/nbOfFriendOfNativesJP.jpg" alt="drawing" width="750"/><center/>
 <p/>
+
+<html>
+<center>
+  <head>
+    <title>Average and median of number of natives friends in the new dataset (2013)</title>
+  </head>
+  <body>
+    <table border="1">
+      <tr>
+        <th>US</th>
+        <th>Japan</th>
+        <th>Brazil</th>
+        <th>India</th>
+        <th>Malaysia</th>
+        <th>Turkey</th>
+        <th>Mexico</th>
+        <th>Thailand</th>
+        <th>Phillipines</th>
+      </tr>
+      <tr>
+        <th> 7.95</th>
+        <th>8.04</th>
+        <th>8.38</th>
+        <th>8.92</th>
+        <th>9.46</th>
+        <th>9.48</th>
+        <th>9.94</th>
+        <th>10.66</th>
+        <th> 11.11</th>
+      </tr>
+      <tr>
+        <th>3.00</th>
+        <th>3.00</th>
+        <th>4.00</th>
+        <th>4.00</th>
+        <th>4.00</th>
+        <th>4.00</th>
+        <th>4.00</th>
+        <th>4.00</th>
+        <th>4.00</th>
+      </tr>
+    </table>
+  </body>
+  </center>
+</html><br>
