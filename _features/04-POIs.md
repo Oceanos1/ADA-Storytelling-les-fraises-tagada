@@ -3,12 +3,12 @@ id: POIs
 name: POIs
 heading: Behaving
 subheading: Like Natives
-image: "https://picsum.photos/id/2/500/500"
+image: "img/coffee.jpg"
 ---
 
 Now that we have an idea of how sociable natives are, we need to identify how they behave and in particular the places of interests they go to. We'll call them POIs. In order to do so, we must identify the places they go to, at what frequency, and what combinations of places they go on the same day.
 
-Here's the top most 30 frequented POIs in the USA dataset:
+In the table below, you will find the top thirty of the most visited POIs in the US dataset. It can be helpful to know which seats are popular and which are not, especially if your goal is to make friends.
 
 | POIs              | Number of checkins | POIs | Number of checkins |
 |:--------          |:-------:|--------:|:--------:|
@@ -47,7 +47,7 @@ Here's the top most 30 frequented POIs in the USA dataset:
 
 ---
 
-Now let's remove the POIs that can't be really visited by a traveller or that doesn't really make sense for meeting new people. Here's the top 10 POIs:
+Let's now remove POIs that can't really be visited by a traveler or that don't really make sense in the context of meeting new people. Here's the top 10 POIs:
 
 | POIs    | Number of checkins | 
 |:--------|:-------:|
@@ -71,12 +71,16 @@ Now let's remove the POIs that can't be really visited by a traveller or that do
 |----
 | Mexican Restaurant  | 7’727   | 
 
-Here you are, those place are the most famous according to the number of checkins ! As opposite, we find that some of the place that have the less checkins are Paella, Moroccan, Swiss, Portugueuse and Turkish restaurants. It can always be useful data if you plan to open a restaurant in USA since you might want to avoid those restaurant type.
-You'll also find some other interesting low results like Roof Deck with only 29 checkins, convention with 4 and Internet Cafe with 91 checkins.
 
---- 
+You have the answer, these are the most famous types of places in USA when you only look at the number of check-ins. On the other hand, you will find POIs that don't have a lot of checkins like Paella, Moroccan, Swiss, Portugueuse and Turkish restaurants. This data can always be useful to you, for example if you plan to open a restaurant in America because you would prefer to avoid this kind of restaurants because of their poor success.
+You'll also find other interesting results like roof decks with only 29 checkins, conventions with 4 and Internet Cafe with 91 checkins, probably because they are not as much popular in USA as they used to be. For example, most people in America have computers at home, while in South Korea it is still common to go to an Internet café to work or play.
 
-We might also want to analyse why they go out and to do so, we pair places visited together and you can see in the following figure our results.
+---
 
+Something else that is also interesting to observe is the combination of activities. We have paired the visited places together and you can see in the figure below the result.
 
- ![image](img/nbofcheckinsforplacesvisitedtogetherUS.png){: style="float: center"; margin-right: 10em; height="55%"; width="55%"}
+ ![image](img/nbofcheckinsforplacesvisitedtogetherUS.JPG){: style="float: center"; margin-right: 10em; height="55%"; width="55%"}
+
+---
+
+ This beginning of POI analysis is done on the dataset of a single country and although it can be very useful for someone going to America, it can be interesting to ask which POI are the most frequented independently of the country.
