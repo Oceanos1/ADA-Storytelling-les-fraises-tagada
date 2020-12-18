@@ -1,8 +1,8 @@
 ---
 id: POIs
 name: POIs
-heading: Behaving
-subheading: Like Natives
+heading: Behaving like natives
+subheading: 
 image: "img/coffee.jpg"
 ---
 
@@ -49,13 +49,13 @@ In the table below, you will find the top thirty of the most visited POIs in the
 
 <br> <br> 
 
-Here's the top twenty POIs with a graph:
+Here's the top twenty POIs with a visualization:
 
 
  ![image](img/NbOfCheckinsPerPoisUS.png){: style="float: left"; height="55%"; width="55%"}
 
 You have the answer, these are the most famous types of places in USA when you only look at the number of check-ins. On the other hand, you will find POIs that don't have a lot of checkins like Paella, Moroccan, Swiss, Portugueuse and Turkish restaurants. This data can always be useful to you, for example if you plan to open a restaurant in America because you would prefer to avoid this kind of restaurants because of their poor success.
-You'll also find other interesting results like roof decks with only 29 checkins, conventions with 4 and Internet Cafe with 91 checkins, probably because they are not as much popular in USA as they used to be. For example, most people in America have computers at home, while in South Korea it is still common to go to an Internet café to work or play.
+You'll also find other interesting results like roof decks with only 29 checkins, conventions with 4 and Internet Cafe with 91 checkins, probably because they are not as much popular in USA as they used to be. For example, most people in America have computers at home, while in South Korea it is still common to go to an Internet Café to work or play.
 
 ---
 
@@ -96,10 +96,12 @@ Now let's take the dataset of Japan to look at the same information as before. I
 |---- 
 | Gym | Asian Restaurant | Gym  |   Café  | Train Station | Ramen/Noodle House |  Indian Restaurant | Gym | Coffee shop | Fast food restaurant |
 |----
-| American Restaurant | Airport | Brazilian Restaurant  | Beach   | Restaurant | Japanese Restaurant | Café | Mall | Japanese Restaurant | Church |
+| American Restaurant | Airport | Brazilian Restaurant  | Beach   | Restaurant | Japanese Restaurant | Café | Coffee shop | Japanese Restaurant | Church |
 |----
 |=====
 {: rules="groups"}
 
 <br> <br> 
 The first thing you can notice is the type of restaurant that is in each country. A Mexican restaurant will be more popular than in Mexico, while a Japanese restaurant will be more popular in Japan. This can be due to the number of people who go there or because it is a popular cuisine in the country.
+
+Then, we notice that some POIs come back in several countries, which would indicate that no matter the culture, they remain important and can be good places by default to meet people, as for example the Mall which comes back in the top 5 of 8 of the 10 countries with the most check-ins.
