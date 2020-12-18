@@ -20,21 +20,12 @@ We notice that our distribution plot is very similar to the one we obtained with
 <br>
  Then we now look at results using datasets from different countries
 
- ![image](img/distancebtwfiendsshousefoursquareAll.JPG){: style="float: center"; margin-right: 10em; height="55%"; width="55%"}
+
+ <p>
+<center><img src="img/distancebtwfiendsshousefoursquareAll.JPG" alt="drawing" width="750"/><center/>
+<p/>
 <br>
- <table>
-  <tr>
-    <td>First Screen Page</td>
-     <td>Holiday Mention</td>
-     <td>Present day in </td>
-  </tr>
-  <tr>
-    <td><img src="img/distancebtwfiendsshousefoursquareUS.JPG" width=270 height=480></td>
-    <td><img src="img/distancebtwfiendsshousefoursquareUS.JPG" width=270 height=480></td>
-    <td><img src="img/distancebtwfiendsshousefoursquareUS.JPG" width=270 height=480></td>
-    
-  </tr>
- </table>
+
 
 <p>
 <center><img src="img/US_flag.jpg" alt="drawing" width="150"/><center/>
