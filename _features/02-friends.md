@@ -36,7 +36,7 @@ We notice that our distribution plot is very similar to the one we obtained with
  <br>
 
  <p>
-<center><img src="img/nbOfFriendOfNativesUS.JPG" alt="drawing" width="750"/><center/>
+<center><img src="img/nbOfFriendOfNativesUS.png" alt="drawing" width="750"/><center/>
 <p/>
 
 There is also a difference of 2 friends between the median and the mean in the new dataset (2013).
@@ -57,7 +57,7 @@ This means that contrary to the US, Japan have more "super users" !
 
 
 <p>
-<center><img src="img/nbOfFriendOfNativesJP.jpg" alt="drawing" width="750"/><center/>
+<center><img src="img/nbOfFriendOfNativesJP.png" alt="drawing" width="750"/><center/>
 <p/>
 
 <html>
